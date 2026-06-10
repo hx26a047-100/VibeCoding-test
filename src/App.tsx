@@ -483,7 +483,7 @@ export default function App() {
                       >
                         <span className="text-sm font-mono">{secs}秒</span>
                         <span className="text-[9px] font-sans font-medium text-zinc-500">
-                          {secs === 30 ? 'クイック' : secs === 60 ? 'ノーマル' : 'エンデュランス'}
+                          {secs === 30 ? 'クイック' : secs === 60 ? 'ノーマル' : 'ロング'}
                         </span>
                       </button>
                     ))}
